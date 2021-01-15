@@ -1,0 +1,16 @@
+/* comentarios con `CTRL` + `/`  
+reglas          => Toda la estructura de la instrucción
+selectores      => header
+declaraciones   => {}   
+propiedades     => background
+valores         => pink
+*/ 
+
+header {
+    background: pink;
+    color: black;
+}
+
+.link{
+
+}
