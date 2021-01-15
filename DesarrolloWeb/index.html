@@ -9,12 +9,13 @@
         <link rel="icon" type="image/png" href="../DesarrolloWeb/Imagenes/ICON/FAVICON2/favicon-32x32.png" />
     </head>
     <body>
-        <header>
+
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src = "../DesarrolloWeb/Imagenes/LOGO/Free_Sample_By_Wix.jpg" alt="Texto Alternativo para nuestro logo http://dasdasd.com" />
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ol>Listas Ordenadas
                         <li>
                             <a class="link" href="./Portafolio/index.html">Portafolio</a>
@@ -41,40 +42,43 @@
             </div>
         </header>
 
-        <section class="portafolio">
+        <section class="hero">
             <h1>Hola! este es un <strong>portafolio de proyectos</strong> para mantener un historial. <br/>
             Mensaje desplegado con un salto de linea, con una parte <strong>marcada con strong</strong>.
             </h1>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4BOeN4ZpmSh66IYC53WtvouOcqE3tbqs_g&usqp=CAU" alt='imagen de fondo'>
         </section>
 
-        <section id="Portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
-            <article>
-                <h3>Proyecto 1</h3>
-                <h6>Tecnologías utilizadas</h6>
-                <p><small><strong>Fecha:</strong> xx/xx/21</small> </p>
-                <p><small><strong>Puedes verlo en:</strong> dirección</small> </p>
-                <p>Descripción del proyecto</p>
-            <img src="../DesarrolloWeb/Imagenes/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/items.png" alt="secciones">
+            <article class="project" >
+                <h3 class="project-title">Proyecto 1</h3>
+                <h6 class="project-subtitle">Tecnologías utilizadas</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> xx/xx/21</small> </p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> dirección</small> </p>
+                <p class="project-description">Descripción del proyecto</p>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="../DesarrolloWeb/Imagenes/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/items.png"
+                        alt="secciones">
+                </figure>
             </article>
         </section>
 
         <section id="Info">
             <h2>Mas información</h2>
-            <article>   
-                <figure>    
-                    <img/>
+            <article  class="information">   
+                <figure class="information-imageContainter">    
+                    <img class="information-image" src="https://miro.medium.com/max/648/1*DcL9vLM9m-OPxXobLG-0Fg.jpeg" alt="imagenJulia">
                 </figure>
-                <h3>Pie de imagen</h3>
-                <p>Descripción</p>
-                <a>Enlace</a>
+                <h3 class="information-title">Pie de imagen</h3>
+                <p class="information-description">Descripción</p>
+                <a class="information-url">Enlace</a>
             </article>
         </section>
 
-        <section id="Contacto">
-            <form action="/suscripcion/">
-                <h3>Contacto</h3>
+        <section id="Contacto" class="contact">
+            <form action="/suscripcion/" class="contact-email">
+                <h3 class="contact-title">Contacto</h3>
                 <input type="text" placeholder="Deja tu e-mail aqui" id="email">
                 <input type="submit" value="Enviar">
                 <button>Enviar</button>
